@@ -43,16 +43,24 @@ body {
   text-shadow: 2px 4px #29c997;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .masthead {
     padding: 3em 0;
   }
   .masthead-heading {
-    font-size: 3em;
+    font-size: 4rem;
+  }
+  .introduction-section,
+  .location-section, 
+  .question-section {
+    font-size: 2rem;
+  }
+  section h1 {
+    margin-top: 0rem;
   }
 }
 
-
+/*link decoration*/
 h2 {
   color:#29c997;
 }
@@ -63,6 +71,11 @@ a {
 
 a:hover {
   color:black;
+}
+
+.content-footer p span:hover {
+  text-shadow: .25rem .25rem white;
+  color: white;
 }
 
 span a {
@@ -97,6 +110,21 @@ span a {
   box-shadow:10px 10px 5px #888888;
 }
 
+.content-footer span {
+  /*Typography Declarations*/
+  font-family: "open sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  letter-spacing:0.2em;
+  text-transform: uppercase;
+}
+
+.content-footer span a,
+.content-footer span:visited,
+.content-footer span:link {
+  text-decoration: none;
+}
+
 .content-footer p a{
   color: white;
 }
@@ -127,7 +155,7 @@ section h1 {
   text-shadow: 1.5px 2px #29c997;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
   .side-left {
     background-image: url('http://bunnyoga.com/sideleft.jpg');
     height: 78em;
@@ -136,7 +164,6 @@ section h1 {
     left:-9em;
     top:-81.5em;
   }
-
   .side-right {
     background-image: url('http://bunnyoga.com/sideright.jpg');
     height: 78em;
