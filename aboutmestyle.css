@@ -162,7 +162,7 @@ body,
     }
 
     .masthead-heading {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .masthead,
@@ -178,6 +178,10 @@ body,
     }
    
    .content-footer span {
-      font-size: .5em;
+      font-size: 2.5em;
+   }
+
+   footer {
+    margin-bottom: 3em;
    }
 }
