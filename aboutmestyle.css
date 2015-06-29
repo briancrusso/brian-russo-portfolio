@@ -7,9 +7,9 @@ body {
     height: 200em;
 }
 
-.content-footer,
 .masthead-heading,
-.masthead-intro {
+.masthead-intro,
+.content-footer {
     text-align: center;
 }
 
@@ -23,23 +23,15 @@ body {
 }
 
 .masthead-intro {
-    /*Layout Declarations*/
-    
     margin-bottom: 0.1em;
-    /*Typography Declarations*/
-    
     font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 2 em;
     letter-spacing: 0.2em;
 }
 
 .masthead-heading {
-    /*Layout Declarations*/
-    
     margin-top: -0.2em;
     margin-bottom: 0.5em;
-    /*Typography Declarations*/
-    
     font-family: "open sans", "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-size: 6em;
@@ -47,7 +39,6 @@ body {
     text-transform: uppercase;
     text-shadow: 2px 4px #29c997;
 }
-/*link decoration*/
 
 h2 {
     color: #29c997;
@@ -64,10 +55,6 @@ a:hover {
 .content-footer p span:hover {
     text-shadow: .25rem .25rem white;
     color: white;
-}
-
-span a {
-    color: purple;
 }
 
 .side-bars,
@@ -117,9 +104,7 @@ span a {
 
 .introduction > p,
 .location > p,
-.content-footer > p {
-    /*Typography Declaration*/
-    
+.content-footer > p {  
     font-weight: 300;
     letter-spacing: 0.05em;
 }
@@ -167,16 +152,18 @@ body,
     .side-left,
     .side-right {
         display: none;
+         margin-left: auto;
+        margin-right: auto;
     }
     .masthead-heading {
-        font-size: 4rem;
+        font-size: 3rem;
     }
-    
+
     .masthead .content-footer,
     .introduction-section,
     .location-section,
     .question-section {
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
