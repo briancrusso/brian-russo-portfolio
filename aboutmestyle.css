@@ -168,14 +168,11 @@ body,
     .side-right {
         display: none;
     }
-    .masthead {
-        padding: 3em 0;
-        width: 100%;
-    }
     .masthead-heading {
         font-size: 4rem;
     }
-    .content-footer,
+    
+    .masthead .content-footer,
     .introduction-section,
     .location-section,
     .question-section {
