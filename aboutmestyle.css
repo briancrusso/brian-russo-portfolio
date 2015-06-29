@@ -175,32 +175,25 @@ body,
     .side-right {
         display: none;
     }
+
     .masthead {
         padding: 3em 0;
     }
+
     .masthead-heading {
         font-size: 4rem;
     }
+
     .introduction-section,
     .location-section,
     .question-section {
         font-size: 2rem;
+        margin-left: 15%;
+        margin-right: 10%;
     }
+
     section h1 {
         margin-top: 0rem;
-    }
-    .masthead {
-        padding: 3em 0;
-    }
-    .masthead-heading {
-        font-size: 4rem;
-    }
-    .introduction-section,
-    .location-section,
-    .question-section {
-        font-size: 2rem;
-    }
-    section h1 {
-        margin-top: 0rem;
+        background-size: cover;
     }
 }
