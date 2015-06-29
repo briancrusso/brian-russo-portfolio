@@ -1,175 +1,209 @@
 body {
-  /* Typography Declaration */
-  color: #222222;
-  font-size: 1 em;
-  font-family: "open sans", "Helvetica Neue", sans-serif;
-  height: 200em;
+    /* Typography Declaration */
+    color: #222222;
+    font-size: 1 em;
+    font-family: "open sans", "Helvetica Neue", sans-serif;
+    height: 200em;
 }
 
 .content-footer,
 .masthead-heading,
 .masthead-intro {
-  text-align: center;
+    text-align: center;
 }
 
 .masthead {
-  padding: 4em 0;
-  background-image: url('http://bunnyoga.com/header.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  border-top: solid 1em white;
-  color: black;
+    padding: 4em 0;
+    background-image: url('http://bunnyoga.com/header.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top: solid 1em white;
+    color: black;
 }
 
 .masthead-intro {
-  /*Layout Declarations*/
-  margin-bottom: 0.1em;
-  /*Typography Declarations*/
-  font-family: "Gentium Book Basic", Georgia, serif;
-  font-size: 2 em;
-   letter-spacing:0.2em;
+    /*Layout Declarations*/
+    
+    margin-bottom: 0.1em;
+    /*Typography Declarations*/
+    
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2 em;
+    letter-spacing: 0.2em;
 }
 
 .masthead-heading {
-  /*Layout Declarations*/
-  margin-top: -0.2em;
- margin-bottom: 0.5em;
-  /*Typography Declarations*/
-  font-family: "open sans", "Helvetica Neue", sans-serif;
-  font-weight: bold;
-  font-size: 6em;
-  letter-spacing:0.7em;
-  text-transform: uppercase;
-  text-shadow: 2px 4px #29c997;
+    /*Layout Declarations*/
+    
+    margin-top: -0.2em;
+    margin-bottom: 0.5em;
+    /*Typography Declarations*/
+    
+    font-family: "open sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: 0.7em;
+    text-transform: uppercase;
+    text-shadow: 2px 4px #29c997;
 }
 
 @media only screen and (max-width: 700px) {
-  .masthead {
-    padding: 3em 0;
-  }
-  .masthead-heading {
-    font-size: 4rem;
-  }
-  .introduction-section,
-  .location-section, 
-  .question-section {
-    font-size: 2rem;
-  }
-  section h1 {
-    margin-top: 0rem;
-  }
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 4rem;
+    }
+    .introduction-section,
+    .location-section,
+    .question-section {
+        font-size: 2rem;
+    }
+    section h1 {
+        margin-top: 0rem;
+    }
 }
-
 /*link decoration*/
+
 h2 {
-  color:#29c997;
+    color: #29c997;
 }
 
 a {
-  color:#29c997;
+    color: #29c997;
 }
 
 a:hover {
-  color:black;
+    color: black;
 }
 
 .content-footer p span:hover {
-  text-shadow: .25rem .25rem white;
-  color: white;
+    text-shadow: .25rem .25rem white;
+    color: white;
 }
 
 span a {
-  color:purple; 
+    color: purple;
 }
 
 .side-bars,
 .content-footer,
-.introduction-section, 
+.introduction-section,
 .location-section,
 .question-section {
-  max-width: 38em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2em;
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
 }
 
 @media only screen and (max-width: 600px) {
-  .content-footer {
-    padding: 0 2em;
-  }
+    .content-footer {
+        padding: 0 2em;
+    }
 }
 
-
 .social > li {
-  display: inline-block;
+    display: inline-block;
 }
 
 .content-footer p {
-  color: white;
-  background-color: #29c997;
-  box-shadow:10px 10px 5px #888888;
+    color: white;
+    background-color: #29c997;
+    box-shadow: 10px 10px 5px #888888;
 }
 
 .content-footer span {
-  /*Typography Declarations*/
-  font-family: "open sans", "Helvetica Neue", sans-serif;
-  font-weight: bold;
-  font-size: 3em;
-  letter-spacing:0.2em;
-  text-transform: uppercase;
+    /*Typography Declarations*/
+    
+    font-family: "open sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
 }
 
 .content-footer span a,
 .content-footer span:visited,
 .content-footer span:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-.content-footer p a{
-  color: white;
+.content-footer p a {
+    color: white;
 }
 
-.content-footer p a:hover{
-  color: black;
+.content-footer p a:hover {
+    color: black;
 }
 
 .introduction > p,
 .location > p,
 .content-footer > p {
-  /*Typography Declaration*/
-  font-weight: 300;
-  letter-spacing: 0.05em;
+    /*Typography Declaration*/
+    
+    font-weight: 300;
+    letter-spacing: 0.05em;
 }
 
 .question-section > h2 {
-  /*Typography Declarations*/
-  font-family: "Gentium Book Basic", Georgia, serif;
-  font-size: 1.2em;
-  font-weight:bold;
-  /*Layout*/
-  margin: 2em 0 1em 0; 
+    /*Typography Declarations*/
+    
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /*Layout*/
+    
+    margin: 2em 0 1em 0;
 }
 
 section h1 {
-  margin-top:2em;
-  text-shadow: 1.5px 2px #29c997;
+    margin-top: 2em;
+    text-shadow: 1.5px 2px #29c997;
 }
 
-@media only screen and (min-width: 700px) {
-  .side-left {
+body,
+.main {
+    max-height: 50em;
+}
+
+.side-left {
     background-image: url('http://bunnyoga.com/sideleft.jpg');
     height: 78em;
     width: 6em;
     position: relative;
-    left:-9em;
-    top:-81.5em;
-  }
-  .side-right {
+    left: -9em;
+    top: -81.5em;
+}
+
+.side-right {
     background-image: url('http://bunnyoga.com/sideright.jpg');
     height: 78em;
     width: 7em;
     position: relative;
-    left:39em;
-    top:-159em;
-  }
+    left: 39em;
+    top: -159em;
+}
+
+@media only screen and (max-width: 700px) {
+
+.side-left,
+.side-right {
+  display: none;
+}
+
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 4rem;
+    }
+    .introduction-section,
+    .location-section,
+    .question-section {
+        font-size: 2rem;
+    }
+    section h1 {
+        margin-top: 0rem;
+    }
 }
