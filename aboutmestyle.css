@@ -155,11 +155,18 @@ body,
          margin-left: auto;
         margin-right: auto;
     }
+
+    .masthead {
+      background-image: none;
+      padding: 0em;
+    }
+
     .masthead-heading {
         font-size: 3rem;
     }
 
-    .masthead .content-footer,
+    .masthead,
+    .content-footer,
     .introduction-section,
     .location-section,
     .question-section {
