@@ -47,7 +47,6 @@ body {
     text-transform: uppercase;
     text-shadow: 2px 4px #29c997;
 }
-
 /*link decoration*/
 
 h2 {
@@ -80,12 +79,6 @@ span a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
-}
-
-@media only screen and (max-width: 600px) {
-    .content-footer {
-        padding: 0 2em;
-    }
 }
 
 .social > li {
@@ -175,23 +168,21 @@ body,
     .side-right {
         display: none;
     }
-
     .masthead {
         padding: 3em 0;
+        background-image: none;
     }
-
     .masthead-heading {
         font-size: 4rem;
     }
-
+    .content-footer,
     .introduction-section,
     .location-section,
     .question-section {
         font-size: 2rem;
         margin-left: 15%;
-        margin-right: 10%;
+        margin-right: 1em
     }
-
     section h1 {
         margin-top: 0rem;
         background-size: cover;
